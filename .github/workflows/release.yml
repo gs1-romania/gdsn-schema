@@ -68,6 +68,16 @@ jobs:
           tags: true
           branch: release-${{ github.event.inputs.releaseVersion }}
 
+      - name: Create GitHub Release
+        if: steps.release.outcome == 'success'
+        run: |
+          gh release create "v${{ github.event.inputs.releaseVersion }}" \
+            --title "v${{ github.event.inputs.releaseVersion }}" \
+            --generate-notes \
+            --target ${{ github.event.inputs.branch }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Open pull request to ${{ github.event.inputs.branch }}
         if: steps.release.outcome == 'success'
         run: |
