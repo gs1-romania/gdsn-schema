@@ -5,7 +5,7 @@
 
     <groupId>ro.gs1</groupId>
     <artifactId>gdsn-schema</artifactId>
-    <version>3.1.35.0</version>
+    <version>3.1.35.1-SNAPSHOT</version>
 
     <name>GDSN XSD Schema Code Generator And Utilities</name>
     <description>Jakarta XML Binding (JAXB) generated classes for GS1 GDSN 3.1 XSD schemas, with utilities for marshalling, unmarshalling and XML validation.</description>
@@ -23,7 +23,7 @@
         <connection>scm:git:https://github.com/gs1-romania/gdsn-schema.git</connection>
         <url>scm:git:https://github.com/gs1-romania/gdsn-schema.git</url>
         <developerConnection>scm:git:https://github.com/gs1-romania/gdsn-schema.git</developerConnection>
-        <tag>gdsn-schema-3.1.35.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
