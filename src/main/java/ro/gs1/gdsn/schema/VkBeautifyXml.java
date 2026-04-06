@@ -66,7 +66,7 @@ public class VkBeautifyXml {
          }
       }
 
-      return (!str.isEmpty() && str.charAt(0) == '\n') ? str.substring(1) : str.toString();
+      return (str.length() != 0 && str.charAt(0) == '\n') ? str.substring(1) : str.toString();
    }
 
    public static String[] createShiftArray(String step) {
