@@ -1,0 +1,471 @@
+<jxb:bindings version="3.0" xmlns:jxb="https://jakarta.ee/xml/ns/jaxb"
+              xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" jxb:extensionBindingPrefixes="xjc"
+              xmlns:inheritance="http://jaxb-tools.gs1.ro/inheritance"
+              xmlns:simplify="http://jaxb-tools.gs1.ro/simplify"
+              xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/AlcoholInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='AlcoholInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/AllergenInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='AllergenInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/AnimalFeedingModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='AnimalFeedingModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ApparelInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ApparelInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/AudienceOrPlayerInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='AudienceOrPlayerInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/AudioVisualMediaContentInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='AudioVisualMediaContentInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/AudioVisualMediaProductDescriptionInformationModule.xsd">
+      <jxb:bindings
+            node="//xsd:complexType[@name='AudioVisualMediaProductDescriptionInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/AudioVisualMediaProductionInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='AudioVisualMediaProductionInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/AwardPrizeModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='AwardPrizeModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/BatteryInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='BatteryInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/CertificationInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='CertificationInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ChemicalRegulationInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ChemicalRegulationInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ChildNutritionInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ChildNutritionInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ConsumerInstructionsModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ConsumerInstructionsModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ControlledSubstanceModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ControlledSubstanceModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/CopyrightInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='CopyrightInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/DairyFishMeatPoultryItemModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='DairyFishMeatPoultryItemModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/DangerousSubstanceInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='DangerousSubstanceInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/DeliveryPurchasingInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='DeliveryPurchasingInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/DietInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='DietInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/DurableGoodsCharacteristicsModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='DurableGoodsCharacteristicsModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/DutyFeeTaxInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='DutyFeeTaxInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ElectronicDeviceCharacteristicsInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ElectronicDeviceCharacteristicsInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/FarmingAndProcessingInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='FarmingAndProcessingInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/FoodAndBeverageIngredientModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='FoodAndBeverageIngredientModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/FoodAndBeveragePropertiesInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='FoodAndBeveragePropertiesInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/FoodAndBeveragePreparationServingModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='FoodAndBeveragePreparationServingModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/HealthcareItemInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='HealthcareItemInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/HealthRelatedInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='HealthRelatedInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/LightingDeviceModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='LightingDeviceModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/MarketingInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='MarketingInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/MaterialModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='MaterialModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/MedicalDeviceTradeItemModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='MedicalDeviceTradeItemModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/MovieRevenueInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='MovieRevenueInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/NonfoodIngredientModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='NonfoodIngredientModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/NonGTINLogisticsUnitInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='NonGTINLogisticsUnitInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/NutritionalInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='NutritionalInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ONIXPublicationFileInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ONIXPublicationFileInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/OpticsDeviceInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='OpticsDeviceInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/OrganismClassificationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='OrganismClassificationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PackagingInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PackagingInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PackagingMarkingModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PackagingMarkingModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PackagingSustainabilityModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PackagingSustainabilityModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PharmaceuticalItemInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PharmaceuticalItemInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PhysicalResourceUsageInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PhysicalResourceUsageInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PlaceOfItemActivityModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PlaceOfItemActivityModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PlumbingHVACPipeInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PlumbingHVACPipeInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ProductCharacteristicsModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ProductCharacteristicsModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ProductFormulationStatementModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ProductFormulationStatementModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ProductInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ProductInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PromotionalItemInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PromotionalItemInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PropellantInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PropellantInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/PublicationTitleRatingModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='PublicationTitleRatingModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/ReferencedFileDetailInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ReferencedFileDetailInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/RegulatedTradeItemModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='RegulatedTradeItemModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/SafetyDataSheetModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='SafetyDataSheetModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/SalesInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='SalesInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/SecurityTagInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='SecurityTagInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/SoftwareSystemRequirementsModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='SoftwareSystemRequirementsModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/SustainabilityModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='SustainabilityModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemDataCarrierAndIdentificationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemDataCarrierAndIdentificationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemDescriptionModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemDescriptionModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemDisposalInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemDisposalInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemHandlingModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemHandlingModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemHierarchyModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemHierarchyModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemHumidityInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemHumidityInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemLicensingModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemLicensingModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemLifespanModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemLifespanModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemMeasurementsModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemMeasurementsModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemSizeModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemSizeModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TransportationHazardousClassificationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TransportationHazardousClassificationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/VariableTradeItemInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='VariableTradeItemInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/VideoDisplayDeviceInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='VideoDisplayDeviceInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/WarrantyInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='WarrantyInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/TradeItemTemperatureInformationModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='TradeItemTemperatureInformationModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+
+   <jxb:bindings schemaLocation="../xsd/gs1/gdsn/HealthWellnessPackagingMarkingModule.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='HealthWellnessPackagingMarkingModuleType']">
+         <inheritance:implements>ro.gs1.gdsn.BasicExtensionType</inheritance:implements>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/shared/SharedCommon.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='ExtensionType']">
+         <simplify:replaceGenericList field="anies">ro.gs1.gdsn.BasicExtensionType
+         </simplify:replaceGenericList>
+      </jxb:bindings>
+   </jxb:bindings>
+
+</jxb:bindings>

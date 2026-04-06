@@ -1,0 +1,26 @@
+<jxb:bindings version="3.0" xmlns:jxb="https://jakarta.ee/xml/ns/jaxb"
+   xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" jxb:extensionBindingPrefixes="xjc"
+   xmlns:inheritance="http://jaxb-tools.gs1.ro/inheritance" xmlns:simplify="http://jaxb-tools.gs1.ro/simplify"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+   <jxb:globalBindings>
+      <jxb:serializable uid="1" />
+      <xjc:javaType adapter="ro.gs1.gdsn.DateTimeAdapter" name="java.time.ZonedDateTime" xmlType="xsd:dateTime" />
+      <xjc:javaType adapter="ro.gs1.gdsn.DateAdapter" name="java.time.Instant" xmlType="xsd:date" />
+      <xjc:javaType adapter="ro.gs1.gdsn.TimeAdapter" name="java.time.Instant" xmlType="xsd:time" />
+      <xjc:simple />
+   </jxb:globalBindings>
+
+   <jxb:bindings schemaLocation="../xsd/sbdh/BusinessScope.xsd">
+      <jxb:bindings node="//xsd:complexType[@name='Scope']//xsd:element[@ref='ScopeInformation']">
+         <simplify:deleteJaxbElementList/>
+      </jxb:bindings>
+   </jxb:bindings>
+
+   <jxb:bindings schemaLocation="../xsd/gs1/shared/SharedCommon.xsd">
+      <jxb:schemaBindings>
+         <jxb:package name="ro.gs1.gdsn.schema.shared" />
+      </jxb:schemaBindings>
+   </jxb:bindings>
+
+</jxb:bindings>

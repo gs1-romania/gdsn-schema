@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue_item_notification:catalogueItemNotificationMessage
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
+	xmlns:catalogue_item_notification="urn:gs1:gdsn:catalogue_item_notification:xsd:3" xsi:schemaLocation="urn:gs1:gdsn:catalogue_item_notification:xsd:3 http://www.gs1globalregistry.net/3.1/schemas/gs1/gdsn/CatalogueItemNotification.xsd">
+	<sh:StandardBusinessDocumentHeader>
+		<sh:HeaderVersion>1.0</sh:HeaderVersion>
+		<sh:Sender>
+			<sh:Identifier Authority="GS1">8712345678913</sh:Identifier>
+		</sh:Sender>
+		<sh:Receiver>
+			<sh:Identifier Authority="GS1">9712345678912</sh:Identifier>
+		</sh:Receiver>
+		<sh:DocumentIdentification>
+			<sh:Standard>GS1</sh:Standard>
+			<sh:TypeVersion>3.1</sh:TypeVersion>
+			<sh:InstanceIdentifier>20051101</sh:InstanceIdentifier>
+			<sh:Type>catalogueItemNotification</sh:Type>
+			<sh:CreationDateAndTime>2011-03-11T11:00:00.000-05:00</sh:CreationDateAndTime>
+		</sh:DocumentIdentification>
+	</sh:StandardBusinessDocumentHeader>
+	<transaction>
+		<transactionIdentification>
+			<entityIdentification>20051101</entityIdentification>
+			<contentOwner>
+				<gln>8712345678913</gln>
+			</contentOwner>
+		</transactionIdentification>
+		<documentCommand>
+			<documentCommandHeader type="ADD">
+				<documentCommandIdentification>
+					<entityIdentification>20051101</entityIdentification>
+					<contentOwner>
+						<gln>8712345678913</gln>
+					</contentOwner>
+				</documentCommandIdentification>
+			</documentCommandHeader>
+			<catalogue_item_notification:catalogueItemNotification>
+				<creationDateTime>2011-03-11T11:00:00.000-05:00</creationDateTime>
+				<documentStatusCode>ORIGINAL</documentStatusCode>
+				<catalogueItemNotificationIdentification>
+					<entityIdentification>20051101</entityIdentification>
+					<contentOwner>
+						<gln>8712345678913</gln>
+					</contentOwner>
+				</catalogueItemNotificationIdentification>
+				<isReload>false</isReload>
+				<catalogueItem>
+					<dataRecipient>9712345678912</dataRecipient>
+					<sourceDataPool>7712345678944</sourceDataPool>
+					<catalogueItemState>
+						<catalogueItemStateCode>REGISTERED</catalogueItemStateCode>
+					</catalogueItemState>
+					<tradeItem>
+						<gtin>00074562000525</gtin>
+						<contextIdentification>1</contextIdentification>
+						<isTradeItemABaseUnit>true</isTradeItemABaseUnit>
+						<isTradeItemAConsumerUnit>true</isTradeItemAConsumerUnit>
+						<isTradeItemADespatchUnit>false</isTradeItemADespatchUnit>
+						<isTradeItemAnInvoiceUnit>false</isTradeItemAnInvoiceUnit>
+						<isTradeItemAnOrderableUnit>true</isTradeItemAnOrderableUnit>
+						<tradeItemUnitDescriptorCode>BASE_UNIT_OR_EACH</tradeItemUnitDescriptorCode>
+						<informationProviderOfTradeItem>
+							<gln>6612345678944</gln>
+							<partyRoleCode>INFORMATION_PROVIDER</partyRoleCode>
+						</informationProviderOfTradeItem>
+						<gdsnTradeItemClassification>
+							<gpcCategoryCode>10000028</gpcCategoryCode>
+							<gpcCategoryName>Clothing (General)</gpcCategoryName>
+						</gdsnTradeItemClassification>
+						<targetMarket>
+							<targetMarketCountryCode>528</targetMarketCountryCode>
+						</targetMarket>
+						<tradeItemInformation>
+							<extension>
+								<material:materialModule
+									xmlns:material="urn:gs1:gdsn:material:xsd:3" xsi:schemaLocation="urn:gs1:gdsn:material:xsd:3 http://www.gs1globalregistry.net/3.1/schemas/gs1/gdsn/MaterialModule.xsd">
+									<material>
+										<tradeItemMaterialDesignationDescription languageCode="en">Cotton blend fabric</tradeItemMaterialDesignationDescription>
+										<isDesignationIntendedForSingleUse>false</isDesignationIntendedForSingleUse>
+										<canMaterialsBeSeparatedManually>true</canMaterialsBeSeparatedManually>
+										<materialComposition>
+											<materialCode>COT</materialCode>
+											<materialContent languageCode="en">Cotton</materialContent>
+											<materialPercentage>80</materialPercentage>
+										</materialComposition>
+										<materialComposition>
+											<materialCode>PES</materialCode>
+											<materialContent languageCode="en">Polyester</materialContent>
+											<materialPercentage>20</materialPercentage>
+										</materialComposition>
+									</material>
+								</material:materialModule>
+							</extension>
+						</tradeItemInformation>
+						<tradeItemSynchronisationDates>
+							<lastChangeDateTime>2013-01-10T12:00:01.000-05:00</lastChangeDateTime>
+							<effectiveDateTime>2013-02-10T12:00:01.000-05:00</effectiveDateTime>
+						</tradeItemSynchronisationDates>
+					</tradeItem>
+				</catalogueItem>
+			</catalogue_item_notification:catalogueItemNotification>
+		</documentCommand>
+	</transaction>
+</catalogue_item_notification:catalogueItemNotificationMessage>
