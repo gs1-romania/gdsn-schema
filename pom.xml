@@ -323,7 +323,7 @@
             <repositories>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/gs1-romania/gdsn</url>
+                    <url>https://maven.pkg.github.com/gs1-romania/gdsn-schema</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -335,7 +335,7 @@
             <pluginRepositories>
                 <pluginRepository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/gs1-romania/gdsn</url>
+                    <url>https://maven.pkg.github.com/gs1-romania/gdsn-schema</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
