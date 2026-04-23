@@ -98,7 +98,7 @@
 									<dietInformation>
 										<dietTypeDescription languageCode="en"> Suitable for Gluten Free Diets </dietTypeDescription>
 											<dietTypeInformation>
-												<dietTypeCode>FREE_FROM_GLUTEN </dietTypeCode>
+												<dietTypeCode>FREE_FROM_GLUTEN</dietTypeCode>
 											</dietTypeInformation>
 									</dietInformation>
 								</diet_information:dietInformationModule>

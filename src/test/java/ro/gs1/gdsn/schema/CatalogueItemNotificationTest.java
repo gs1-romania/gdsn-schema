@@ -10,6 +10,7 @@ import org.xmlunit.matchers.CompareMatcher;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Unmarshaller;
+import ro.gs1.gdsn.BasicExtensionType;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Source;
@@ -20,6 +21,7 @@ import java.io.InputStream;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.ZonedDateTime;
+import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -526,6 +528,52 @@ public class CatalogueItemNotificationTest {
             unmarshal.getTransactions().get(0).getTransactionIdentification());
       assertEquals(generateCatalogueItemNotificationMessage.getTransactions().get(0).getDocumentCommand().getDocumentCommandHeader(),
             unmarshal.getTransactions().get(0).getDocumentCommand().getDocumentCommandHeader());
+      CatalogueItemNotificationType cin = (CatalogueItemNotificationType) unmarshal.getTransactions()
+            .get(0).getDocumentCommand().getDocuments().get(0).getValue();
+      List<BasicExtensionType> anies = cin.getCatalogueItem()
+            .getTradeItem().getTradeItemInformations().get(0).getExtension().getAnies();
+      assertEquals(13, anies.size(), "expected 13 extension modules after unmarshal");
+
+      FoodAndBeverageIngredientModule ingredientModule =
+            Assertions.assertInstanceOf(FoodAndBeverageIngredientModule.class, anies.get(0));
+      assertEquals("Sodium Nitrate",
+            ingredientModule.getAdditiveInformations().get(0).getAdditiveName());
+      assertEquals("CONTAINS",
+            ingredientModule.getAdditiveInformations().get(0).getLevelOfContainmentCode().getValue());
+      assertEquals("Milk",
+            ingredientModule.getFoodAndBeverageIngredients().get(0).getIngredientNames().get(0).getValue());
+
+      DietInformationModule dietModule =
+            Assertions.assertInstanceOf(DietInformationModule.class, anies.get(1));
+      assertEquals("FREE_FROM_GLUTEN",
+            dietModule.getDietInformation().getDietTypeInformations().get(0).getDietTypeCode().getValue());
+
+      DairyFishMeatPoultryItemModule dairyModule =
+            Assertions.assertInstanceOf(DairyFishMeatPoultryItemModule.class, anies.get(3));
+      assertEquals(BigDecimal.valueOf(10.00).setScale(2, RoundingMode.HALF_DOWN),
+            dairyModule.getDairyFishMeatPoultryInformation().getFatInMilkContent());
+      assertEquals(NonBinaryLogicEnumerationType.TRUE,
+            dairyModule.getDairyFishMeatPoultryInformation().getIsHomogenised());
+
+      TradeItemDescriptionModule descriptionModule =
+            Assertions.assertInstanceOf(TradeItemDescriptionModule.class, anies.get(9));
+      assertEquals("Camp's Frozen",
+            descriptionModule.getTradeItemDescriptionInformation().getBrandNameInformation().getBrandName());
+
+      TradeItemMeasurementsModule measurementsModule =
+            Assertions.assertInstanceOf(TradeItemMeasurementsModule.class, anies.get(11));
+      assertEquals(BigDecimal.valueOf(30),
+            measurementsModule.getTradeItemMeasurements().getDepth().getValue());
+      assertEquals("CMT",
+            measurementsModule.getTradeItemMeasurements().getDepth().getMeasurementUnitCode());
+      assertEquals(BigDecimal.valueOf(50),
+            measurementsModule.getTradeItemMeasurements().getWidth().getValue());
+
+      VariableTradeItemInformationModule variableModule =
+            Assertions.assertInstanceOf(VariableTradeItemInformationModule.class, anies.get(12));
+      assertEquals(false,
+            variableModule.getVariableTradeItemInformation().isIsTradeItemAVariableUnit());
+
       logger.debug("unmarshalCatalogueItemNotificationMessage() - end");
    }
 
