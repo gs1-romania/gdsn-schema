@@ -5,7 +5,7 @@
 
     <groupId>ro.gs1</groupId>
     <artifactId>gdsn-schema</artifactId>
-    <version>3.1.35.1-SNAPSHOT</version>
+    <version>3.1.35.2-SNAPSHOT</version>
 
     <name>GDSN XSD Schema Code Generator And Utilities</name>
     <description>Jakarta XML Binding (JAXB) generated classes for GS1 GDSN 3.1 XSD schemas, with utilities for marshalling, unmarshalling and XML validation.</description>
