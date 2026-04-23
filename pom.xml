@@ -42,7 +42,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.junit>5.14.3</version.junit>
+        <version.junit>6.0.3</version.junit>
         <version.xmlunit>2.11.0</version.xmlunit>
         <version.slf4j>2.0.17</version.slf4j>
         <version.jaxb2-maven-plugin>3.2.0</version.jaxb2-maven-plugin>
