@@ -44,7 +44,7 @@
         <version.junit>6.0.3</version.junit>
         <version.xmlunit>2.11.0</version.xmlunit>
         <version.slf4j>2.0.17</version.slf4j>
-        <version.jaxb2-maven-plugin>3.2.0</version.jaxb2-maven-plugin>
+        <version.jaxb2-maven-plugin>4.1.0</version.jaxb2-maven-plugin>
         <version.jaxb.xjc>4.0.7</version.jaxb.xjc>
         <version.jaxb.core>4.0.7</version.jaxb.core>
         <version.jaxb.api>4.0.5</version.jaxb.api>
