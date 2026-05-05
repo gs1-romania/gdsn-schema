@@ -48,7 +48,7 @@
         <version.jaxb.xjc>4.0.7</version.jaxb.xjc>
         <version.jaxb.core>4.0.7</version.jaxb.core>
         <version.jaxb.api>4.0.5</version.jaxb.api>
-        <version.jaxb.impl>4.0.7</version.jaxb.impl>
+        <version.jaxb.impl>4.0.8</version.jaxb.impl>
         <version.jaxb.tools>0.3</version.jaxb.tools>
         <version.commons.lang3>3.20.0</version.commons.lang3>
         <version.jakarta.activation>2.1.4</version.jakarta.activation>
