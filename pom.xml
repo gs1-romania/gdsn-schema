@@ -41,7 +41,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.junit>6.0.3</version.junit>
+        <version.junit>6.1.0</version.junit>
         <version.xmlunit>2.11.0</version.xmlunit>
         <version.slf4j>2.0.17</version.slf4j>
         <version.jaxb2-maven-plugin>4.1.0</version.jaxb2-maven-plugin>
